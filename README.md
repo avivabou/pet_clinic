@@ -1,28 +1,49 @@
-# Pet Clinic
+# 🚀 Pet Clinic
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project that manages pet clinic patients, built with a simple CRUD interface and MongoDB.
 
-## Getting Started
+---
 
-First, install dependencies:
+## ⚙️ Getting Started
+
+Follow these steps to run the app locally:
+
+### 1️⃣ Install dependencies
 
 ```bash
-yarn install
+yarn
 ```
 
-Then, run the development server:
+### 2️⃣ Build the application
+```bash
+yarn build
+```
+This compiles the Next.js application for production.
 
+### 3️⃣ Seed the database (for demo data)
+```bash
+yarn seed
+```
+This runs a script to populate your local MongoDB with example patients.
+
+### 4️⃣ Run the app
+In production mode:
+```bash
+yarn start
+```
+Or in development mode (auto reload on file changes):
 ```bash
 yarn dev
 ```
 
+## 🔗 Open in your browser
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying pages/index.tsx. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/patients](http://localhost:3000/api/pateints). This endpoint can be edited in `pages/api/pateints.ts`.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/patients](http://localhost:3000/api/pateints). This endpoint can be edited in pages/api/pateints.ts.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+The pages/api directory is mapped to /api/*. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 ## Learn More
 
